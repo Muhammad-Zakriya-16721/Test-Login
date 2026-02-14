@@ -1,5 +1,10 @@
 import { LoginCard } from "./components/LoginCard";
+import { PageLayout } from "./components/PageLayout";
 
 export default function Home() {
-  return <LoginCard />;
+  return (
+    <PageLayout>
+      <LoginCard />
+    </PageLayout>
+  );
 }
